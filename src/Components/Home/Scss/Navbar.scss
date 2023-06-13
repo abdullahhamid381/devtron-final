@@ -60,17 +60,26 @@ a {
     }
 
     .nav__toggler div {
-        width: 2.5rem;
-        height: 0.2rem;
+        width: 23px;
+        height: 2px;
         margin: 0.4rem;
-        background: rgb(204, 204, 204);
+        background: #cccccc;
         transition: 0.3s ease-in;
+        @include sm{
+            width: 20px;
+            height: 1px; 
+            margin: 0.3rem;
+        
+        }
     }
 
   @include lg {
         .nav__toggler {
             display: block;
             cursor: pointer;
+            margin-top: -40px;
+            font-size: 18px;
+            z-index: 99999999;
         }
 
         .nav__menu {
@@ -84,6 +93,7 @@ a {
             flex-direction: column;
             transform: translateX(100%);
             transition: 0.5s ease-in;
+            z-index: 9999;
         }
     }
     @include sm{
