@@ -1,0 +1,46 @@
+@import './media.scss';
+.service-parent{
+    background-color: #1C1C1C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 80px 0;
+    @include lg{
+        grid-template-columns: 1fr;
+    }
+    .partner{
+        img{
+            width: 100%;
+        }
+    }
+    .service-text{
+        width: 90%;
+        .text{
+            h1{
+                color:  rgb(221, 208, 200);
+                font-size: 30px;
+                font-weight: 700;
+            }
+            p{
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+        .service-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 40px;
+            .service-sub-parent{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                h3{
+                    color: rgb(221, 208, 200);
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

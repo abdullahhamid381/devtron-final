@@ -15,46 +15,46 @@ function Navbar() {
     } else setIcon("nav__toggler");
   };
   return (
-   <div className="navbar-parent">
-     <nav className="nav">
-      <a href="#" className="nav__brand">
-       <img src="./images/logo.png" alt="" width={'80%'} className="logo" />
-      </a>
-      <ul className={active}>
-        <li className="nav__item">
-          <a href="#" className="nav__link active">
-            Home
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            About
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            Portfolio
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            Skills
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            Contact
-          </a>
-        </li>
-        {/* <button>Get Started</button> */}
-      </ul>
-      <div onClick={navToggle} className={icon}>
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
-      </div>
-    </nav>
-   </div>
+    <div className="navbar-parent">
+      <nav className="nav">
+        <a href="#" className="nav__brand">
+          <img src="./images/logo.png" alt="" width={'80%'} className="logo" />
+        </a>
+        <ul className={active}>
+          <li className="nav__item">
+            <a href="#" className="nav__link active">
+              Home
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#" className="nav__link">
+              About
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#" className="nav__link">
+              Portfolio
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#" className="nav__link">
+              Skills
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#" className="nav__link">
+              Contact
+            </a>
+          </li>
+          {/* <button>Get Started</button> */}
+        </ul>
+        <div onClick={navToggle} className={icon}>
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
+      </nav>
+    </div>
   );
 }
 
