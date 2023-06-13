@@ -55,7 +55,7 @@
     }
   }
   @mixin sm {
-    @media only screen and (max-width: "500px") {
+    @media only screen and (max-width: "700px") {
       @content;
     }
   }
@@ -76,6 +76,21 @@
   }
   @mixin sm6 {
     @media only screen and (max-width: "600px") {
+      @content;
+    }
+  }
+  @mixin sm5{
+    @media only screen and (max-width: "450px") {
+      @content;
+    }
+  }
+  @mixin sm4{
+    @media only screen and (max-width: "370px") {
+      @content;
+    }
+  }
+  @mixin sm3{
+    @media only screen and (max-width: "300px") {
       @content;
     }
   }
