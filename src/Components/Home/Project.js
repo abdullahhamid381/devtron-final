@@ -5,6 +5,7 @@ import p1 from '../../assets/p1.jpg'
 import p2 from '../../assets/p2.jpg'
 import p3 from '../../assets/p3.jpg'
 import p4 from '../../assets/p4.jpg'
+import {AiOutlineArrowLeft,AiOutlineArrowRight} from 'react-icons/ai'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import './Scss/Project.scss';
@@ -53,6 +54,9 @@ function Project() {
                     </div>
 
                 </Swiper>
+                <div className='contact'>
+                <button><AiOutlineArrowRight/></button><span> Contact Now</span>
+                </div>
             </div>
         </div>
     );

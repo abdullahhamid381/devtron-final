@@ -12,13 +12,15 @@
         border-radius: 50px;
         transition: .8s;
         border: none;
+        background: rgb(219, 56, 71);
+        color: white;
      
     }
     .pre:hover{
         transform: rotate(0deg);
         cursor: pointer;
-        background: rgb(219, 56, 71);
-        color: white;
+        background: white;
+        color: black;
        
     }
 .next{
@@ -29,11 +31,13 @@
     border-radius: 50px;
     transition: .8s;
     border: none;
+    background: rgb(219, 56, 71);
+    color: white;
     }
     .next:hover{
         transform: rotate(0deg);
         cursor: pointer;
-        background: rgb(219, 56, 71);
-        color: white;
+        background: white;
+        color: black;
     }
 }

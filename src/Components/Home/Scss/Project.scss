@@ -37,6 +37,37 @@
             }
         }
     }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            transform: rotate(-40deg);
+        transition: .8s;
+        height: 50px;
+        width: 50px;
+        font-size: 22px;
+        border-radius: 50px;
+        transition: .8s;
+        align-items: center;
+        border: none;
+        background: rgb(219, 56, 71);
+        color: white;
+        cursor: pointer;
+        }
+        button:hover{
+            background: white;
+            color: black;
+        }
+        span{
+            color: white;
+            margin-left: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: lighter;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    }
    }
       
 }
