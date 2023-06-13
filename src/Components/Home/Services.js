@@ -18,7 +18,7 @@ const Services = () => {
                 service.map((item)=>{
                     return(
                         <div className='service-sub-parent'>
-                        <div>
+                        <div className='img-icon'>
                             <img src={item.img} alt="" />
                         </div>
     
