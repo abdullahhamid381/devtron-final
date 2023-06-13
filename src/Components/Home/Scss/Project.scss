@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Open+Sans&family=Raleway:wght@200&family=Roboto&display=swap');
+.project-parent{
+    background: url(../../../assets/back2.webp) no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+   
+   .slider{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+  
+    h1{
+        color: rgb(221, 208, 200);
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 700;
+    }
+    .buttons{
+       margin-top: 20px;
+       float: right;
+    }
+    .swiper-back{
+        background: #1C1C1C;
+        padding: 60px 30px 20px 30px;
+        border-radius: 8px;
+        margin: 60px 0;
+        .res-slide{
+            
+            img{
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+    }
+   }
+      
+}

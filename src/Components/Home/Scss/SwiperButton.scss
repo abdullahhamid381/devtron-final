@@ -1,0 +1,39 @@
+.swiper-nav-btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+    .pre{
+        transform: rotate(-40deg);
+        transition: .8s;
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+        border-radius: 50px;
+        transition: .8s;
+        border: none;
+     
+    }
+    .pre:hover{
+        transform: rotate(0deg);
+        cursor: pointer;
+        background: rgb(219, 56, 71);
+        color: white;
+       
+    }
+.next{
+    transform: rotate(-40deg);
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: .8s;
+    border: none;
+    }
+    .next:hover{
+        transform: rotate(0deg);
+        cursor: pointer;
+        background: rgb(219, 56, 71);
+        color: white;
+    }
+}
