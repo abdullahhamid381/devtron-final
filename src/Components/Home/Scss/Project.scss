@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Copse&family=Open+Sans&family=Raleway:wght@200&family=Roboto&display=swap');
+@import './media.scss';
 .project-parent{
     background: url(../../../assets/back2.webp) no-repeat;
     background-size: cover;
@@ -8,6 +9,11 @@
     max-width: 1400px;
     width: 100%;
     margin: auto;
+    @include lg{
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+    }
   
     h1{
         color: rgb(221, 208, 200);
