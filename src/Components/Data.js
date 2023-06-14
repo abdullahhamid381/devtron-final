@@ -31,3 +31,37 @@ export const service=[
         title:'Responsive Mobile/Web Apps',
     },
 ]
+export const progress=[
+    {
+        title:'Digital Marketing',
+   
+     classfirst:'type1',
+        percent:'60%',
+        class:'first'
+    },
+    {
+        classfirst:'type2',
+        title:'E-Commerce',
+        para:'',
+        progress:'',
+        percent:'80%',
+        class:'third'
+    },
+    {
+        classfirst:'type3',
+        title:'Woo Commerce',
+        para:'',
+        progress:'',
+        percent:'95%',
+        class:'second'
+    },
+   
+    {
+        classfirst:'type4',
+        title:'Enterprise Website',
+        para:'',
+        progress:'',
+        percent:'100%',
+        class:'fourth'
+    },
+]

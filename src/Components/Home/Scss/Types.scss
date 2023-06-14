@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Open+Sans&family=Raleway:wght@200&family=Roboto&display=swap');
+
+.types-back {
+    background: url(../../../assets/back3.webp)no-repeat;
+    background-size: cover;
+    margin: 0;
+
+    .types-parent {
+        width: 90%;
+        margin: auto;
+        padding: 80px 0;
+        .text {
+            h1 {
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(221, 208, 200);
+                font-size: 40px;
+                margin: 0;
+                font-weight: 700;
+    
+            }
+    
+            p {
+                margin: 0;
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(221, 208, 200);
+                padding: 20px 0 60px 0;
+            }
+        }
+    
+        .type1 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+            margin: 10px 0;
+    
+            .title {
+                h1 {
+                    color: rgb(221, 208, 200);
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+    
+            .progress-bar {
+                width: 100%;
+                height: 6px;
+    
+                border-radius: 10px;
+                overflow: hidden;
+    
+                .progress {
+                    height: 100%;
+                    width: 60%;
+                    background-color: rgb(221, 208, 200);
+                    transition: 1s ease-in-out;
+                }
+            }
+    
+    
+    
+            .progress.active {
+                transition-delay: 1s;
+            }
+    
+            @keyframes fillProgress {
+                0% {
+                    width: 50%;
+                }
+    
+                100% {
+                    width: 100%;
+                }
+            }
+    
+            .percent {
+                h1 {
+                    padding-left: 100px;
+                    color: rgb(221, 208, 200);
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+        }
+    
+        .type2 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+            margin: 10px 0;
+    
+            .title {
+                h1 {
+                    color: rgb(196, 180, 113);
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+    
+            .progress-bar {
+                width: 100%;
+                height: 6px;
+    
+                border-radius: 10px;
+                overflow: hidden;
+    
+                .progress {
+                    height: 100%;
+                    width: 80%;
+                    background-color: rgb(196, 180, 113);
+                    transition: 1s ease-in-out;
+                }
+            }
+    
+    
+    
+            .progress.active {
+                transition-delay: 1s;
+            }
+    
+            @keyframes fillProgress {
+                0% {
+                    width: 50%;
+                }
+    
+                100% {
+                    width: 100%;
+                }
+            }
+    
+            .percent {
+                h1 {
+                    padding-left: 100px;
+                    color: rgb(196, 180, 113);
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+        }
+    
+        .type3 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+            margin: 10px 0;
+    
+            .title {
+                h1 {
+                    color: rgb(147, 252, 253);
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+    
+            .progress-bar {
+                width: 100%;
+                height: 6px;
+    
+                border-radius: 10px;
+                overflow: hidden;
+    
+                .progress {
+                    height: 100%;
+                    width: 95%;
+                    background-color: rgb(147, 252, 253);
+                    transition: 1s ease-in-out;
+                }
+            }
+    
+    
+    
+            .progress.active {
+                transition-delay: 1s;
+            }
+    
+            @keyframes fillProgress {
+                0% {
+                    width: 50%;
+                }
+    
+                100% {
+                    width: 100%;
+                }
+            }
+    
+            .percent {
+                h1 {
+                    padding-left: 100px;
+                    color: rgb(147, 252, 253);
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+        }
+    
+        .type4 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+            margin: 10px 0;
+    
+            .title {
+                h1 {
+                    color: rgb(255, 168, 215);
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+    
+            .progress-bar {
+                width: 100%;
+                height: 6px;
+    
+                border-radius: 10px;
+                overflow: hidden;
+    
+                .progress {
+                    height: 100%;
+                    width: 100%;
+                    background-color: rgb(255, 168, 215);
+                    transition: 1s ease-in-out;
+                }
+            }
+    
+    
+    
+            .progress.active {
+                transition-delay: 1s;
+            }
+    
+            @keyframes fillProgress {
+                0% {
+                    width: 50%;
+                }
+    
+                100% {
+                    width: 100%;
+                }
+            }
+    
+            .percent {
+                h1 {
+                    padding-left: 100px;
+                    color: rgb(255, 168, 215);
+                    font-size: 24px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+        }
+        .contact{
+            display: flex;
+            align-items: center;
+           margin-top: 60px;
+            button{
+                transform: rotate(-40deg);
+            transition: .8s;
+            height: 50px;
+            width: 50px;
+            font-size: 22px;
+            border-radius: 50px;
+            transition: .8s;
+            align-items: center;
+            border: none;
+            background: rgb(219, 56, 71);
+            color: white;
+            cursor: pointer;
+            }
+            button:hover{
+                background: white;
+                color: black;
+            }
+            span{
+                color: white;
+                margin-left: 10px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: lighter;
+                font-size: 18px;
+                cursor: pointer;
+            }
+        }
+    }
+
+   
+}
